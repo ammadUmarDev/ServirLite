@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Fxml.dashboardController">
+   <children>
+      <Pane prefHeight="600.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css">
+         <children>
+            <Button layoutX="24.0" layoutY="25.0" mnemonicParsing="false" onAction="#changeHome" prefHeight="58.0" prefWidth="150.0" styleClass="pallet" stylesheets="@style.css" text="Servir Lite" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="72.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-restaurant-menu-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutY="155.0" mnemonicParsing="false" onAction="#changeScreenMenu" prefHeight="63.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css" text="Menu" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-restaurant-menu-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="55.0" />
+               </padding>
+            </Button>
+            <Button layoutY="232.0" mnemonicParsing="false" onAction="#changeScreenOrder" prefHeight="63.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css" text="Orders" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="42.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-add-property-64.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="47.0" />
+               </padding>
+            </Button>
+            <Button layoutX="-1.0" layoutY="308.0" mnemonicParsing="false" onAction="#changeScreenInventory" prefHeight="63.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css" text="Inventory" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="51.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-inventory-flow-100.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="28.0" />
+               </padding>
+            </Button>
+            <Button layoutX="-1.0" layoutY="383.0" mnemonicParsing="false" onAction="#changeScreenEmployee" prefHeight="63.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css" text="Employee" textFill="WHITE">
+               <graphic>
+                  <ImageView fitHeight="72.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-employee-80.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <padding>
+                  <Insets right="38.0" />
+               </padding>
+            </Button>
+            <Button layoutY="458.0" mnemonicParsing="false" onAction="#changeScreenViewReport" prefHeight="63.0" prefWidth="197.0" styleClass="pallet" stylesheets="@style.css" text="Report Archive" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="72.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/D:/Ap%20Workspace/Workspace/ServirLite/src/GUI/Fxml/Resources/icons8-purchase-order-96.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="425.0" layoutY="253.0">
+         <children>
+            <Label layoutX="23.0" prefHeight="21.0" prefWidth="170.0" text="Opps! Trial Version">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="28.0" prefHeight="21.0" prefWidth="170.0" text="Purchase Servir Lite to unlock">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutY="57.0" prefHeight="21.0" prefWidth="197.0" text="Go to novateursystems.com/servir">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="650.0" layoutY="569.0" text="Developed by Novateur Systems© " />
+   </children>
+</AnchorPane>
